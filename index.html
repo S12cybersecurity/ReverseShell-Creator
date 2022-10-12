@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>RevShell Creator - S12</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body style="background-color:#000000;">
+    <script src="./script.js"></script>
+    <h1 style="color: #ffffff;"">
+        <center>Online Reverse Shell Generator</center>
+    </h1>
+    <p style="color: #ffffff;">Enter the following data:</p>
+    <p style="color: #ffffff;">IP:</p>
+    <input type="text" id="ip">
+    <p style="color: #ffffff;">PORT:</p>
+    <input type="text" id="port">
+    <p style="color: #ffffff;">TYPE:</p>
+    <select name="type" id="type">
+        <option value="">Please choose an option</option>
+        <option value="bash">Bash</option>
+        <option value="python">Python</option>
+        <option value="netcat">Netcat</option>
+        <option value="php">PHP</option>
+        <option value="powershell">Powershell</option>
+        <option value="icmp">ICMP</option>
+        <option value="dns">DNS</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit" id="submit">Create</button>
+    <h2>
+        <center>Result</center>
+    </h2>
+
+</body>
